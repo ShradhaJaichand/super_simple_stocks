@@ -95,20 +95,26 @@ stock = ex.get_stock("POP")
 
 # Calculate values
 print(stock.dividend_yield(Decimal(100)))
+
 print(stock.pe_ratio(Decimal(100)))
+
 print(ex.volume_weighted_stock_price("POP"))
+
 print(ex.gbce_all_share_index())
+
 Testing
 The code is structured to allow easy creation of unit tests to validate:
-•	Dividend yield calculations
-•	P/E ratio behavior when dividend is zero
-•	VWSP calculations with varying trade compositions
-•	GBCE index calculations
+         •	Dividend yield calculations
+         •	P/E ratio behavior when dividend is zero
+         •	VWSP calculations with varying trade compositions
+         •	GBCE index calculations
+
 License
 This project is open-source and free to use.
 Author
 Your Name
-GitHub: https://github.com/your-username
+GitHub: https://github.com/ShradhaJaichand
+
 
 
 
