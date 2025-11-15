@@ -5,10 +5,14 @@ The implementation provides only the functionality requested in the assignment a
 Features Implemented
 1.	For a given stock:
 •	Calculate Dividend Yield (Common and Preferred)
+
 •	Calculate P/E Ratio
+
 •	Record a trade with timestamp, quantity, buy/sell indicator, and price
+
 •	Compute the Volume Weighted Stock Price (VWSP) using trades from the last 5 minutes
-2.	For all stocks:
+
+3.	For all stocks:
 •	Calculate the GBCE All Share Index using the geometric mean of all Volume Weighted Stock Prices
 Assignment Constraints (All Satisfied)
 •	Implemented in Python
@@ -78,4 +82,5 @@ This project is open-source and free to use.
 Author
 Your Name
 GitHub: https://github.com/your-username
+
 
